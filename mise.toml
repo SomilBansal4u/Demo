@@ -1,0 +1,11 @@
+[tools]
+python = "3.12"
+poetry = "latest"
+
+[tasks.install]
+description = "Install dependencies"
+run = "poetry install"
+
+[tasks.run]
+description = "Run the app"
+run = "poetry run python app.py"

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.env
+venv/
+.venv/
+mise.local.toml
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

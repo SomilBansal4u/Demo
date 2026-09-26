@@ -1,0 +1,14 @@
+[project]
+name = "learn-github"
+version = "0.1.0"
+description = "A tiny practice project for learning the everyday GitHub workflow: init, branch, commit, push, and pull request."
+authors = [{ name = "Somil Bansal", email = "somil.bansal.1994@gmail.com" }]
+readme = "README.md"
+requires-python = "^3.12"
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
